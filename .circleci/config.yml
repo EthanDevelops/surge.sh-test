@@ -21,4 +21,4 @@ jobs:
           command: sudo npm install --global surge
         
       # run tests!
-      - run: sudo surge
+      - run: sudo surge -email bennunethan@gmail.com -password EthanMika173
