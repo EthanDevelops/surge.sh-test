@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Install Dependencies
-          command: npm install --global surge
+          command: sudo npm install --global surge
         
       # run tests!
-      - run: surge
+      - run: sudo surge
